@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode; // ye react, ReactNode accept karega
 }>) {
   return (
     <html lang="en">
